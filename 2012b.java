@@ -31,8 +31,7 @@ class b2012{
 
 
     static void sort(String[] celebrity, int[] judge1, int[] judge2, int[] judge3, int[] total){  
-		int n = celebrity.length;  
-		int temp = 0;  
+		int n = celebrity.length;    
 		for(int i=0; i < n; i++){ 
 			for(int j=1; j < (n-i); j++){
                 if(total[j-1] < total[j]){   

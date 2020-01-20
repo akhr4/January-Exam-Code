@@ -1,3 +1,5 @@
+//Don't understand what is being asked 
+
 import java.util.Scanner; 
 class b2014{
     public static void main(String[] args){
@@ -38,7 +40,7 @@ class b2014{
             else{
                 interestCounter = interestCounter+1;
                 for (int i=0; i < counter; i++){
-                    if (firstNum[i] == call){
+                    if (firstNum[i] == call && ){
                         interest[interestCounter] = call + " " + secondNum[i] + " 1" ;
                         break;
                     }
